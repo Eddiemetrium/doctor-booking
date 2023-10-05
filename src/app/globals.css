@@ -14,13 +14,19 @@
     @apply max-w-full w-[1440px] px-5 mx-auto
   }
   .btn{
-    @apply bg-primaryColor py-[15px] px-[35] rounded-[50px] text-white font-[600] mt-[38px]
+    @apply bg-primaryColor py-[15px] w-[15rem] px-[35] rounded-[50px] text-white font-[600] mt-[38px]
   }
   .heading{
     @apply text-[44px] leading-[54px] font-[700] text-headingColor
   }
   .text_para{
     @apply text-[18px] leading-[30px] font-[400] text-textColor mt-[18px]
+  }
+  .header{
+    @apply bg-[url('../assets/images/mask.png')] bg-no-repeat bg-cover bg-center w-full h-[100px] leading-[100px]
+  }
+  .hero_section{
+    @apply bg-[url('../assets/images/hero-bg.png')] bg-no-repeat bg-cover bg-center
   }
 }
 @media only screen and (max-width:1024) {

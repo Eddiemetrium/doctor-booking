@@ -1,3 +1,4 @@
+import Footer from '../footer/page'
 import Header from '../header/page'
 
 const Contact = () => {
@@ -6,7 +7,7 @@ const Contact = () => {
       <Header />
       
       Contact
-      
+      <Footer/>
       </div>
   )
 }
