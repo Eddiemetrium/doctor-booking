@@ -47,3 +47,29 @@ body {
 
   }
 }
+.absolute-img{
+  position: absolute;
+      bottom: -9%;
+    right: -2%;
+  }
+@media (min-width: 768px) {
+  .absolute-img {
+    position: absolute;
+    bottom: -9%;
+    right: -30%;
+  }
+}
+@media (min-width: 968px) {
+  .absolute-img {
+    position: absolute;
+    bottom: -9%;
+    right: 15%;
+  }
+}
+/* @media (min-width: 967px) {
+  .absolute-img {
+    position: absolute;
+    bottom: -9%;
+    right: 18%;
+  }
+} */
