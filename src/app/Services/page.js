@@ -1,15 +1,14 @@
 import React from 'react'
-import Header from '../header/page'
-import Footer from '../footer/page'
-
-const Services = () => {
+import Header from "../header/page";
+import Footer from "../footer/page";
+const page = () => {
   return (
     <div>
       <Header />
-        Services
-        <Footer/>
-        </div>
-  )
+      page
+      <Footer />
+    </div>
+  );
 }
 
-export default Services
+export default page
