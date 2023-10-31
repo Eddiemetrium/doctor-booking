@@ -88,7 +88,7 @@ const Footer = () => {
             <p className="text-[16px] font-[400] leading-7 text-textColor mt-4">
               © {year} developed by Edwin Munene all rights reserved.
             </p>
-            <div className="flex items-center gap-3 mt-4">
+            <div className="flex items-center justify-evenly gap-3 mt-4">
               {socialLinks.map((link, index) => (
                 <a
                   href={link.href}
@@ -99,7 +99,7 @@ const Footer = () => {
                 </a>
               ))}
             </div>
-          </div>{" "}
+          </div>
           <div>
             <h2 className=" text-[20] leading-[30px] font-[700] mb-6 text-headingColor">
               Quick Links

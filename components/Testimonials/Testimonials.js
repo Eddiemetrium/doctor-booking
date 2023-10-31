@@ -1,11 +1,11 @@
+"use client";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
-import  "swiper/css";
+import "swiper/css";
 import "swiper/css/pagination";
 import patientAvatar from "../../src/assets/images/patient-avatar.png";
 import { HiStar } from "react-icons/hi";
 import Image from "next/image";
-
 
 const Testimonials = () => {
   return (
@@ -131,14 +131,14 @@ const Testimonials = () => {
               </div>
             </div>
             <p>
-              &rdquo; I have taken medical services from them. They treat so well
-              and they are providing the best medical services. &rdquo;
+              &rdquo; I have taken medical services from them. They treat so
+              well and they are providing the best medical services. &rdquo;
             </p>
           </div>
         </SwiperSlide>
       </Swiper>
     </div>
   );
-}
+};
 
-export default Testimonials
+export default Testimonials;
