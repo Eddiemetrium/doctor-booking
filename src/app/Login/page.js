@@ -37,7 +37,7 @@ function Page() {
             </div>
             <div className="mb-5">
               <input
-                className="w-full px-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[22px] leading-7 text-headingColor placeholder:text-headingColor rounded-md cursor-text "
+                className="w-full px-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[18px] leading-7 text-headingColor placeholder:text-textColor rounded-md cursor-text "
                 type="password"
                 placeholder="Password"
                 name="password"
