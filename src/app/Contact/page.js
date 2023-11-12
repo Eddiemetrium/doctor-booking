@@ -48,7 +48,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <button className="btn w-full" type="submit">
+              <button className="btn h-[60px] w-full" type="submit">
                 Submit
               </button>
             </div>

@@ -32,9 +32,13 @@ const About = () => {
             For 30 yeras in a row, U.S . News & world Report has recognized us
             as one of the best public hospital in the Nation and #1 in Texas.
           </p>
-          <p className="text_para mt-[30px]">Our best is something we strive for each day, caring for our patients-not looking back at what we accomplished but towards what we can do tommorow. Providing the best. </p>
+          <p className="text_para mt-[30px]">
+            Our best is something we strive for each day, caring for our
+            patients-not looking back at what we accomplished but towards what
+            we can do tommorow. Providing the best.{" "}
+          </p>
           <Link href="/">
-          <button className="btn">Learn More</button>
+            <button className="btn h-[60px]">Learn More</button>
           </Link>
         </div>
       </div>

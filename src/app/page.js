@@ -54,7 +54,7 @@ export default function Home() {
                   assertiveness that is essentially in becoming strong men.
                   What’s your opinion? Subscribe and share this channel.
                 </p>
-                <button className="btn">Request an appointment</button>
+                <button className="btn h-[60px]">Request an appointment</button>
               </div>
               {/* Hero Counter */}
               <div className="mt-[30px] lg:mt-[70] flex flex-col lg:flex-row lg:item-center gap-5 lg:gap[30px] ">
@@ -209,7 +209,7 @@ export default function Home() {
                 href="/Doctors"
                 className="  mx-auto flex items-center justify-start "
               >
-                <button className="btn">Learn more </button>
+                <button className="btn h-[60px]">Learn more </button>
               </Link>
             </div>
 
@@ -271,16 +271,16 @@ export default function Home() {
       {/* End Faq Section  */}
 
       {/* Testimonials  */}
-<section>
-      <div className="xl:w-[470px] mx-auto">
-        <h2 className="heading text-center">What our patients say</h2>
-        <p className="text_para text-center">
-          World-class care for everyone. Our health System offers unmatched,
-          expert health care.
-        </p>
-      </div>
-      <Testimonials />
-</section>
+      <section>
+        <div className="xl:w-[470px] mx-auto">
+          <h2 className="heading text-center">What our patients say</h2>
+          <p className="text_para text-center">
+            World-class care for everyone. Our health System offers unmatched,
+            expert health care.
+          </p>
+        </div>
+        <Testimonials />
+      </section>
       {/* End  Testimonials */}
 
       <Footer />
