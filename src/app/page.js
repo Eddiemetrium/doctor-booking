@@ -54,7 +54,7 @@ export default function Home() {
                   assertiveness that is essentially in becoming strong men.
                   What’s your opinion? Subscribe and share this channel.
                 </p>
-                <button className="btn h-[60px]">Request an appointment</button>
+                <button className="btn h-[60px] w-[275px]">Request an appointment</button>
               </div>
               {/* Hero Counter */}
               <div className="mt-[30px] lg:mt-[70] flex flex-col lg:flex-row lg:item-center gap-5 lg:gap[30px] ">
