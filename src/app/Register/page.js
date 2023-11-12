@@ -46,7 +46,7 @@ const Signup = () => {
 
           <div className="rounded-l-lg lg:pl-16 py-10 text-center">
             <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
-              Create an<span className="text-primaryColor"> account </span>{" "}
+              Create an<span className="text-primaryColor"> account 🍻</span>{" "}
             </h3>
             <form className="py-4 md:py-0" onSubmit={submitHandler}>
               <div className="mb-5">
