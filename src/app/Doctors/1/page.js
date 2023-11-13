@@ -13,7 +13,7 @@ const Page = () => {
   return (
     <section>
       <div className="max-w-[1170px] px-5 mx-auto">
-      <Header />
+        <Header />
         <div className="grid md:grid-cols-3 gap-[50px]">
           <div className="md:col-span-2">
             <div className="flex items-center gap-5">
@@ -39,8 +39,9 @@ const Page = () => {
                   </span>
                 </div>
                 <p className="text_para text-[14px] leading-5 md:text-[15px] lg:max-w-[390px]  text-textColor">
-                  Lorem ipsum dorem guan xi 4chan reddit small talk, big guy 7.
-                  Yoel is a friend.
+                  Muhibur Rahman is a distinguished medical professional with a
+                  specialization in Surgery, holding a prestigious Ph.D. in the
+                  field. 
                 </p>
               </div>
             </div>

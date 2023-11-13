@@ -14,7 +14,6 @@ const DoctorAbout = () => {
   };
   return (
     <div>
-
       <div className="flex ">
         <div>
           <h3 className="text-[20px] leading-[30px] text-headingColor font-semibold flex items-center gap-2">
@@ -24,8 +23,16 @@ const DoctorAbout = () => {
             </span>
           </h3>
           <p className="text_para">
-            Lorem ipsum dorem guan xii 8chan dread tokyolin talk. John is a
-            friend.
+            Driven by a passion for advancing healthcare, Muhibur has dedicated
+            years to rigorous academic pursuits and hands-on clinical
+            experience. Currently affiliated with the New Apollo Hospital in New
+            York, Muhibur contributes to the medical community&apos;s growth and
+            patient care. His expertise in surgery reflects a commitment to
+            excellence, and his work at the forefront of healthcare innovation
+            makes him a valuable asset to the medical field. Dr. Muhibur
+            Rahman&apos;s pursuit of knowledge and dedication to surgical
+            advancements underscore his role as a respected and influential
+            figure in the medical landscape.
           </p>
         </div>
       </div>
@@ -37,9 +44,11 @@ const DoctorAbout = () => {
         <ul className="pt-6 mt-3 md:p-5 ">
           <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px] ">
             <div>
-              <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
-                {FormatDate("12-04-2010")}
-              </span>
+              <div>
+                <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
+                  {FormatDate("12-04-2010")}
+                </span>
+              </div>
               <div className="flex justify-between">
                 <p className="text-[16px] leading-6 font-medium text-textColor">
                   PHD in Surgery
@@ -50,21 +59,7 @@ const DoctorAbout = () => {
               </div>
             </div>
           </li>
-          <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px] ">
-            <div>
-              <span className="text-irisBlueColor text-[15px] leading-6 font-semibold">
-                {FormatDate("12-04-2010")}
-              </span>
-              <div className="flex justify-between">
-                <p className="text-[16px] leading-6 font-medium text-textColor">
-                  PHD in Surgery
-                </p>
-                <p className="text-[14px] leading-5 font-medium text-textColor">
-                  New Apollo Hospital, New York
-                </p>
-              </div>
-            </div>
-          </li>
+          <li className="flex flex-col sm:flex-row sm:justify-between sm:items-end md:gap-5 mb-[30px] "></li>
         </ul>
       </div>
     </div>
